@@ -7,13 +7,6 @@
 import { adjustLightness } from './tools';
 
 import {
-  // Blue
-  blue20,
-  blue40,
-  blue60,
-  blue70,
-  blue80,
-
   // Gray
   gray10,
   gray20,
@@ -26,7 +19,6 @@ import {
   gray100,
 
   // Support
-  blue50,
   green40,
   green50,
   yellow,
@@ -38,14 +30,22 @@ import {
   // Constants
   white,
 
+  // Teal
+  teal20,
+  teal40,
+  teal50,
+  teal60,
+  teal70,
+  teal80,
+
   // Tools
   rgba,
 } from '@carbon/colors';
 
-export const interactive01 = blue60;
+export const interactive01 = teal60;
 export const interactive02 = gray80;
-export const interactive03 = blue60;
-export const interactive04 = blue60;
+export const interactive03 = teal60;
+export const interactive04 = teal60;
 
 export const uiBackground = white;
 
@@ -66,9 +66,9 @@ export const icon01 = gray100;
 export const icon02 = gray70;
 export const icon03 = white;
 
-export const link01 = blue60;
+export const link01 = teal60;
 
-export const inverseLink = blue40;
+export const inverseLink = teal40;
 
 export const field01 = gray10;
 export const field02 = white;
@@ -79,31 +79,31 @@ export const inverse02 = gray80;
 export const support01 = red60;
 export const support02 = green50;
 export const support03 = yellow;
-export const support04 = blue70;
+export const support04 = teal70;
 
 export const inverseSupport01 = red50;
 export const inverseSupport02 = green40;
 export const inverseSupport03 = yellow;
-export const inverseSupport04 = blue50;
+export const inverseSupport04 = teal50;
 
 export const overlay01 = rgba(gray100, 0.5);
 
 export const danger = red60;
 
 // Interaction states
-export const focus = blue60;
+export const focus = teal60;
 export const inverseFocusUi = white;
 
-export const hoverPrimary = '#0353e9';
-export const activePrimary = blue80;
+export const hoverPrimary = teal70;
+export const activePrimary = teal80;
 
-export const hoverPrimaryText = blue70;
+export const hoverPrimaryText = teal70;
 
 export const hoverSecondary = '#4c4c4c';
 export const activeSecondary = gray60;
 
-export const hoverTertiary = '#0353e9';
-export const activeTertiary = blue80;
+export const hoverTertiary = teal70;
+export const activeTertiary = teal80;
 
 export const hoverUI = '#e5e5e5';
 export const activeUI = gray30;
@@ -124,7 +124,7 @@ export const disabled01 = gray10;
 export const disabled02 = gray30;
 export const disabled03 = gray50;
 
-export const highlight = blue20;
+export const highlight = teal20;
 
 export const decorative01 = gray20;
 
